@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Queries for SoftUni Database">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="COMPHARR\SQLEXPRESS02:COMPHARR\User">
+          <Created>2018-06-02T10:03:28.4318509+03:00</Created>
+          <Type>SQL</Type>
+          <Server>COMPHARR\SQLEXPRESS02</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="p01.FindNamesOfAllEmployeesByFirstName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p01.FindNamesOfAllEmployeesByFirstName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p02.FindNamesOfAllEmployeeByLastName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p02.FindNamesOfAllEmployeeByLastName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="P03.FindFirstNamesOfAllEmployess.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>P03.FindFirstNamesOfAllEmployess.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p04.FindAllEmployeesExceptEngineers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p04.FindAllEmployeesExceptEngineers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p05.FindTownsWithNameLength.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p05.FindTownsWithNameLength.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p06.FindTownsStartingWith.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p06.FindTownsStartingWith.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p07.FindTownsNotStartingWith.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p07.FindTownsNotStartingWith.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p08.CreateViewEmployeesHiredAfter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p08.CreateViewEmployeesHiredAfter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p09.LengthOfLastName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p09.LengthOfLastName.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Exercises">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="COMPHARR\SQLEXPRESS02:COMPHARR\User">
+          <Created>2018-06-16T19:00:37.0284624+03:00</Created>
+          <Type>SQL</Type>
+          <Server>COMPHARR\SQLEXPRESS02</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="p01.EmployeesWithSalaryAbove35000.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p01.EmployeesWithSalaryAbove35000.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p02.EmployeesWithSalaryAboveNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p02.EmployeesWithSalaryAboveNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p03.TownNamesStartingWith.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p03.TownNamesStartingWith.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p04.EmployeesFromTown.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p04.EmployeesFromTown.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p05.SalaryLevelFunction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p05.SalaryLevelFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p06.EmployeesBySalaryLevel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p06.EmployeesBySalaryLevel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p07.DefineFunction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p07.DefineFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p08.DeleteEmployeesAndDepartments.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p08.DeleteEmployeesAndDepartments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p09.FindFullName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p09.FindFullName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p10.PeopleWithBalanceHigherThan.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p10.PeopleWithBalanceHigherThan.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p11.FutureValueFunction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p11.FutureValueFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p12.CalculatingInterest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p12.CalculatingInterest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p13.CashInUserGamesOddRows.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p13.CashInUserGamesOddRows.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

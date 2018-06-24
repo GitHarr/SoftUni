@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Queries for Geography Database">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="COMPHARR\SQLEXPRESS02:COMPHARR\User">
+          <Created>2018-05-30T17:33:02.4800955+03:00</Created>
+          <Type>SQL</Type>
+          <Server>COMPHARR\SQLEXPRESS02</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="p22.AllMountainPeaks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p22.AllMountainPeaks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p23.BiggestCountriesByPopulation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p23.BiggestCountriesByPopulation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p24.CountriesAndCurrency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p24.CountriesAndCurrency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="P25.AllDiabloCharacters.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COMPHARR\SQLEXPRESS02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>COMPHARR\SQLEXPRESS02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>P25.AllDiabloCharacters.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

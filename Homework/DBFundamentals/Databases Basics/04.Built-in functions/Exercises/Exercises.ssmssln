@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Queries for SoftUni Database", "Queries for SoftUni Database\Queries for SoftUni Database.ssmssqlproj", "{A4C4B068-A0B7-49D9-B6C1-28C32E9382F9}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Queries for Geography Database", "Queries for Geography Database\Queries for Geography Database.ssmssqlproj", "{9BC172FB-1CA0-412B-9915-FD00322058B5}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Queries for Diablo Database", "Queries for Diablo Database\Queries for Diablo Database.ssmssqlproj", "{1763BD5E-BCAE-46E9-90D8-AAD4C91BE052}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Date Functions Queries", "Date Functions Queries\Date Functions Queries.ssmssqlproj", "{2B7FCA78-A9B1-41D7-B289-F56CDB15F2B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4C4B068-A0B7-49D9-B6C1-28C32E9382F9}.Default|Default.ActiveCfg = Default
+		{18448C9D-DBB6-4F4D-84C7-9F59832C2DB7}.Default|Default.ActiveCfg = Default
+		{9BC172FB-1CA0-412B-9915-FD00322058B5}.Default|Default.ActiveCfg = Default
+		{1763BD5E-BCAE-46E9-90D8-AAD4C91BE052}.Default|Default.ActiveCfg = Default
+		{2B7FCA78-A9B1-41D7-B289-F56CDB15F2B6}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

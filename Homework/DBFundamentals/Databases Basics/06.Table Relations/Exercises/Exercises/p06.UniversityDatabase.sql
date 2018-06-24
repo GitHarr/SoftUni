@@ -1,0 +1,37 @@
+CREATE TABLE Majors(
+	MajorID INT CONSTRAINT PK_Majors PRIMARY KEY,
+	[Name] VARCHAR(30) NOT NULL CONSTRAINT CHK_MajorName CHECK (LEN([Name]) > 2)
+)
+
+CREATE TABLE Students(
+	StudentID INT CONSTRAINT PK_Students PRIMARY KEY,
+	StudentNumber CHAR(10) NOT NULL,
+
+	StudentName VARCHAR(30) NOT NULL 
+	CONSTRAINT CHK_StudentName CHECK (LEN(StudentName) > 2),
+
+	MajorID INT CONSTRAINT FK_Students_Majors REFERENCES Majors(MajorID)
+)
+
+CREATE TABLE Subjects(
+	SubjectID INT CONSTRAINT PK_Subjects PRIMARY KEY,
+	SubjectName VARCHAR(40) NOT NULL
+)
+
+CREATE TABLE Agenda(
+	StudentID INT CONSTRAINT FK_Agenda_Students FOREIGN KEY 
+	REFERENCES Students(StudentID), 
+
+	SubjectID INT CONSTRAINT FK_Agenda_Subjects FOREIGN KEY 
+	REFERENCES Subjects(SubjectID)
+
+	CONSTRAINT PK_Agenda PRIMARY KEY (StudentID, SubjectID)
+)
+
+CREATE TABLE Payments(
+	PaimentID INT CONSTRAINT PK_Payments PRIMARY KEY,
+	PaymentDate DATETIME NOT NULL,
+	PaymentAmount DECIMAL (15, 2),
+	StudentID INT CONSTRAINT FK_Payments_Students FOREIGN KEY 
+	REFERENCES Students(StudentID)
+)
