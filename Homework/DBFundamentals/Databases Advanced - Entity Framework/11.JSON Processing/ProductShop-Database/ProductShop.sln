@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop.App", "ProductShop.App\ProductShop.App.csproj", "{00A7ED54-3A54-43CB-A089-0EBE8D63CB03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop.Data", "ProductShop.Data\ProductShop.Data.csproj", "{3E6B4F7B-29DE-4CDB-B609-442E7DA89527}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop.Models", "ProductShop.Models\ProductShop.Models.csproj", "{64243635-83AA-4733-A2C4-BB7AF7E5E030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query 1. Products In Range", "Query 1. Products In Range\Query 1. Products In Range.csproj", "{836EBFFB-AAF7-44D1-85ED-1DB793573E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query 2. Successfully Sold Products", "Query 2. Successfully Sold Products\Query 2. Successfully Sold Products.csproj", "{AAAE76DA-0930-4102-8155-4D5EC2FC3237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query3.CtgByProductsCount", "Query3.CtgByProductsCount\Query3.CtgByProductsCount.csproj", "{26204F9F-4ECC-4A64-B14B-10A51C776868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query4.UsersAndProducts", "Query4.UsersAndProducts\Query4.UsersAndProducts.csproj", "{453E02C6-E33D-4210-9D67-C2F0D7C76BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00A7ED54-3A54-43CB-A089-0EBE8D63CB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A7ED54-3A54-43CB-A089-0EBE8D63CB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A7ED54-3A54-43CB-A089-0EBE8D63CB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A7ED54-3A54-43CB-A089-0EBE8D63CB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6B4F7B-29DE-4CDB-B609-442E7DA89527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6B4F7B-29DE-4CDB-B609-442E7DA89527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6B4F7B-29DE-4CDB-B609-442E7DA89527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6B4F7B-29DE-4CDB-B609-442E7DA89527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64243635-83AA-4733-A2C4-BB7AF7E5E030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64243635-83AA-4733-A2C4-BB7AF7E5E030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64243635-83AA-4733-A2C4-BB7AF7E5E030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64243635-83AA-4733-A2C4-BB7AF7E5E030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836EBFFB-AAF7-44D1-85ED-1DB793573E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836EBFFB-AAF7-44D1-85ED-1DB793573E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836EBFFB-AAF7-44D1-85ED-1DB793573E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836EBFFB-AAF7-44D1-85ED-1DB793573E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAE76DA-0930-4102-8155-4D5EC2FC3237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAE76DA-0930-4102-8155-4D5EC2FC3237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAE76DA-0930-4102-8155-4D5EC2FC3237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAE76DA-0930-4102-8155-4D5EC2FC3237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26204F9F-4ECC-4A64-B14B-10A51C776868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26204F9F-4ECC-4A64-B14B-10A51C776868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26204F9F-4ECC-4A64-B14B-10A51C776868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26204F9F-4ECC-4A64-B14B-10A51C776868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453E02C6-E33D-4210-9D67-C2F0D7C76BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453E02C6-E33D-4210-9D67-C2F0D7C76BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453E02C6-E33D-4210-9D67-C2F0D7C76BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453E02C6-E33D-4210-9D67-C2F0D7C76BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B293DFE1-23D6-46E2-8A33-EB1013B9CF0A}
+	EndGlobalSection
+EndGlobal
